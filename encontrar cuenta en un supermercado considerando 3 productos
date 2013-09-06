@@ -1,0 +1,27 @@
+// Encontrar la cuenta en un supermercado ingresando 3 productos y precios .cpp : 
+// Autor: Mauricio Cuellar Fernandez
+// Fecha: 6 de septiembre del 2013
+
+#include "stdafx.h"
+#include "math.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+int main()
+{
+    //Base por altura
+	int base, altura;
+	float S, precio1, precio2, precio3, cant1, cant2, cant3;
+	cout<< "ingresar el precio del primer producto y su cantidad \n";
+	cin>> precio1; cin>>cant1; 
+	cout<< "Ingrese el precio del segundo producto y su cantidad \n";
+	cin>> precio2; cin>>cant2;
+	cout<< "ingrese el precio del tercer  producto y su cantidad \n";
+	cin>> precio3; cin>>cant3;
+		S=precio1*cant1+precio2*cant2+precio3*cant3;
+		cout<<"el total es \n"<<S;
+    getch();
+    return 0;
+}
