@@ -1,0 +1,24 @@
+// Area de un triangulo en funcion a base por la altura Defines the entry point for the console application.
+// Autor: Mauricio Cuellar Fernandez
+// Fecha: 6 de septiembre del 2013
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+int main()
+{
+    //Ingresar lados uno por uno
+    int base, H;
+	float S, Area;
+	cout<<"ingrese Base\n";
+		cin>>base;
+	cout<<"ingrese altura H\n";
+		cin>>H;
+		Area=(base*H)/2;
+			cout<<Area;
+		getch();
+    return 0;
+}
